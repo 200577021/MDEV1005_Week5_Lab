@@ -3,15 +3,8 @@ using UnityEngine.SceneManagement;
 
 public class MainMenuController : MonoBehaviour
 {
-    public void PlayBtnClicked()
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        //Load Level 1
-        SceneManager.LoadScene("Level 1");
-    }
-
-    public void OptionsBtnClicked()
-    {
-        //Show Options
         
     }
 }
